@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Online Courses</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="page">
+    <section class="courses">
+      <div class="courses__container">
+        <p class="courses__subtitle">ENJOY YOUR STUDYING!</p>
+        <h1 class="courses__title">Our online courses</h1>
+
+        <div class="courses__controls">
+          <div class="courses__tabs" id="tabs"></div>
+
+          <div class="courses__search">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search course..."
+            />
+          </div>
+        </div>
+
+        <div class="courses__grid" id="coursesGrid"></div>
+
+        <button class="courses__load-more" id="loadMore">
+          <span class="courses__load-icon">⟳</span>
+          Load more
+        </button>
+      </div>
+    </section>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

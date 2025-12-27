@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #fff;
+  color: #1c1c1c;
+}
+
+.courses {
+  padding: 60px 20px;
+}
+.courses__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.courses__subtitle {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.courses__title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.courses__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.courses__tabs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.courses__tab {
+  cursor: pointer;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #8b8b8b;
+}
+.courses__tab--active {
+  border: 1px solid red;
+  color: red;
+}
+.courses__search input {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  width: 220px;
+}
+.courses__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+.courses__load-more {
+  margin: 50px auto 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.card__image {
+  background: #ffd93b;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.card__image img {
+  max-height: 210px;
+}
+.card__body {
+  padding: 20px;
+}
+.card__tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.card__tag--marketing {
+  background: #2ac9a1;
+}
+.card__tag--management {
+  background: #5b8cff;
+}
+.card__tag--design {
+  background: #ff4d88;
+}
+.card__tag--development {
+  background: #8b7bff;
+}
+.card__tag--hr {
+  background: #ffa13b;
+}
+.card__title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.card__meta {
+  font-size: 14px;
+  color: #8b8b8b;
+}
+.card__meta span {
+  color: red;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=main.css.map */
