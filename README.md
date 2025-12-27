@@ -53,3 +53,5 @@
 🚀 Деплой
 
 Проект задеплоен на Vercel.
+
+- https://test-task-three-alpha.vercel.app/
